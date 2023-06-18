@@ -1,0 +1,44 @@
+p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.barra{
+    background-color: white;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 90px;
+    transform: rotate(-45deg);
+}
+
+.box-green{
+    background-color: #009c3b;
+    height: 600px;
+    width: 900px;
+    position: relative;
+}
+
+.box-yellow{
+    background-color: #ffdf00;
+    position: absolute;
+    left: 240px;
+    top: 92px;
+    height: 420px;
+    width: 420px; 
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.circle{
+    background-color: #002776;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+}
